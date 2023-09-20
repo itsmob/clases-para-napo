@@ -1,0 +1,7 @@
+1. declarar una variable llamada 'nombre' e inicializarla con el valor ->input.value<-
+
+2. declarar una variable llamada 'nacionalidad' e inicializarla con el valor ->select.value<-
+
+3. declarar una variable llamada 'frase'
+
+4. ejecutar el programa para ver si funciona correctamente

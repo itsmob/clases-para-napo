@@ -1,0 +1,1 @@
+Escribir las condiocionales necesarias para responder con un texto adecuado segun los datos introducidos

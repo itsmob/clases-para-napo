@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="formulario">
+        <p>Introduzca los datos del usuario</p>
+
+        <div class="input-item">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" required />
+        </div>
+
+        <div class="input-item">
+          <label for="edad">Edad</label>
+          <input type="number" name="edad" id="edad" required />
+        </div>
+
+        <fieldset>
+          <legend>Genero</legend>
+
+          <div>
+            <input type="radio" id="hombre" name="genero" value="hombre" required />
+            <label for="hombre">Hombre</label>
+          </div>
+
+          <div>
+            <input type="radio" id="mujer" name="genero" value="mujer" />
+            <label for="mujer">Mujer</label>
+          </div>
+        </fieldset>
+        <div class="social">
+          <div>
+            <input type="checkbox" name="facebook" id="fb" value="facebook" />
+            <label for="fb">Facebook</label>
+          </div>
+          <div>
+            <input type="checkbox" name="instagram" id="ig" value="instagram" />
+            <label for="ig">Instagram</label>
+          </div>
+          <div>
+            <input type="checkbox" name="discord" id="dc" value="discord" />
+            <label for="dc">Discord</label>
+          </div>
+        </div>
+        <button id="boton">ver posibilidades</button>
+      </form>
+      <div id="output"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
